@@ -1,4 +1,4 @@
-name: cv1_final1
+name: cv1
 channels:
   - pytorch
   - conda-forge
@@ -7,10 +7,7 @@ dependencies:
   - argon2-cffi-bindings=21.2.0
   - async-lru=2.0.4
   - beautifulsoup4=4.12.3
-<<<<<<< HEAD
-=======
   - blas=1.0
->>>>>>> 7f2b4d6e69408e3379bee8cc0f307f1af3e80f6d
   - brotli-python=1.0.9
   - bzip2=1.0.8
   - ca-certificates=2024.9.24
@@ -32,15 +29,6 @@ dependencies:
   - jupyterlab_server=2.27.3
   - libcxx=14.0.6
   - libexpat=2.6.2
-<<<<<<< HEAD
-  - libffi=3.4.2
-  - libsodium=1.0.18
-  - libsqlite=3.46.1
-  - libzlib=1.3.1
-  - ncurses=6.5
-  - nest-asyncio=1.6.0
-  - notebook=7.2.2
-=======
   - libfaiss=1.8.0
   - libffi=3.4.2
   - libgfortran=5.0.0
@@ -58,7 +46,6 @@ dependencies:
   - numpy-base=1.26.4
   - openblas=0.3.21
   - openblas-devel=0.3.21
->>>>>>> 7f2b4d6e69408e3379bee8cc0f307f1af3e80f6d
   - openssl=3.3.1
   - packaging=24.1
   - pip=24.2
@@ -182,9 +169,9 @@ dependencies:
       - threadpoolctl==3.5.0
       - tifffile==2024.9.20
       - tinycss2==1.3.0
-      - torch==2.2.0
+      - torch==2.4.0
       - torchinfo==1.8.0
-      - torchvision==0.17.0
+      - torchvision==0.19.0
       - tqdm==4.66.5
       - types-python-dateutil==2.9.0.20240821
       - typing-extensions==4.12.2
@@ -194,3 +181,4 @@ dependencies:
       - webcolors==24.8.0
       - werkzeug==3.0.4
       - widgetsnbextension==4.0.13
+prefix: /Users/pradyut.nair/miniconda3/envs/cv1
