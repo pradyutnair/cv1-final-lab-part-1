@@ -1,11 +1,16 @@
 name: cv1_final1
 channels:
+  - pytorch
   - conda-forge
   - defaults
 dependencies:
   - argon2-cffi-bindings=21.2.0
   - async-lru=2.0.4
   - beautifulsoup4=4.12.3
+<<<<<<< HEAD
+=======
+  - blas=1.0
+>>>>>>> 7f2b4d6e69408e3379bee8cc0f307f1af3e80f6d
   - brotli-python=1.0.9
   - bzip2=1.0.8
   - ca-certificates=2024.9.24
@@ -27,6 +32,7 @@ dependencies:
   - jupyterlab_server=2.27.3
   - libcxx=14.0.6
   - libexpat=2.6.2
+<<<<<<< HEAD
   - libffi=3.4.2
   - libsodium=1.0.18
   - libsqlite=3.46.1
@@ -34,6 +40,25 @@ dependencies:
   - ncurses=6.5
   - nest-asyncio=1.6.0
   - notebook=7.2.2
+=======
+  - libfaiss=1.8.0
+  - libffi=3.4.2
+  - libgfortran=5.0.0
+  - libgfortran5=11.3.0
+  - libopenblas=0.3.21
+  - libsodium=1.0.18
+  - libsqlite=3.46.1
+  - libzlib=1.3.1
+  - llvm-openmp=14.0.6
+  - ncurses=6.5
+  - nest-asyncio=1.6.0
+  - nomkl=3.0
+  - notebook=7.2.2
+  - numpy=1.26.4
+  - numpy-base=1.26.4
+  - openblas=0.3.21
+  - openblas-devel=0.3.21
+>>>>>>> 7f2b4d6e69408e3379bee8cc0f307f1af3e80f6d
   - openssl=3.3.1
   - packaging=24.1
   - pip=24.2
@@ -122,7 +147,6 @@ dependencies:
       - nbformat==5.10.4
       - networkx==3.3
       - notebook-shim==0.2.4
-      - numpy==1.26.4
       - opencv-contrib-python==4.10.0.84
       - opencv-python==4.10.0.84
       - overrides==7.7.0
